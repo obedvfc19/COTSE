@@ -70,7 +70,7 @@ safety_settings = [
 ]
 
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro-latest",
+    model_name="gemini-1.5-pro",
     safety_settings=safety_settings,
     generation_config=generation_config,
     system_instruction=VICKY_SYSTEM_PROMPT,
